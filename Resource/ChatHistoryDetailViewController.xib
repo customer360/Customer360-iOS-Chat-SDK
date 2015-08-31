@@ -20,7 +20,7 @@
                     <rect key="frame" x="0.0" y="64" width="601" height="536"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" bouncesZoom="NO" style="plain" separatorStyle="none" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="u5Z-dI-xQB">
-                            <rect key="frame" x="0.0" y="6" width="600" height="530"/>
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <color key="separatorColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
@@ -35,7 +35,7 @@
                         <constraint firstAttribute="centerX" secondItem="u5Z-dI-xQB" secondAttribute="centerX" constant="0.5" id="D9L-Vn-sX3"/>
                         <constraint firstAttribute="bottom" secondItem="u5Z-dI-xQB" secondAttribute="bottom" id="Ts6-BH-gKU"/>
                         <constraint firstAttribute="trailing" secondItem="u5Z-dI-xQB" secondAttribute="trailing" constant="1" id="X2G-bG-mHQ"/>
-                        <constraint firstItem="u5Z-dI-xQB" firstAttribute="top" secondItem="22N-qg-oqN" secondAttribute="top" constant="6" id="mzz-gq-5SW"/>
+                        <constraint firstItem="u5Z-dI-xQB" firstAttribute="top" secondItem="22N-qg-oqN" secondAttribute="top" id="mzz-gq-5SW"/>
                     </constraints>
                 </view>
             </subviews>

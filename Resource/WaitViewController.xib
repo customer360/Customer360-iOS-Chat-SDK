@@ -8,7 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WaitViewController">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
-                <outlet property="waitingScreenImageView" destination="ota-fJ-9BR" id="HvQ-Q3-ajs"/>
+                <outlet property="waitingScreenImageView" destination="ota-fJ-9BR" id="KAS-jF-qC9"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
