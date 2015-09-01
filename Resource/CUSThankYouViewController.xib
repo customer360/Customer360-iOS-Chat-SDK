@@ -22,9 +22,6 @@
                     <color key="textColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" alpha="1.3877787807814457e-17" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="agent128.png" translatesAutoresizingMaskIntoConstraints="NO" id="hge-6i-4W2">
-                    <rect key="frame" x="236" y="50" width="128" height="128"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="For your time and interest in providing us feedback" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlQ-fx-pWY">
                     <rect key="frame" x="100" y="223" width="400" height="285"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
@@ -35,16 +32,11 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="vlQ-fx-pWY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="100" id="3K9-hX-wX0"/>
-                <constraint firstAttribute="centerX" secondItem="hge-6i-4W2" secondAttribute="centerX" id="9U9-6K-XE0"/>
                 <constraint firstItem="vlQ-fx-pWY" firstAttribute="top" secondItem="sAS-Ha-IHh" secondAttribute="bottom" constant="17" id="Fqs-NN-obb"/>
+                <constraint firstItem="sAS-Ha-IHh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="174" id="KpF-8J-i0Z"/>
                 <constraint firstAttribute="centerX" secondItem="sAS-Ha-IHh" secondAttribute="centerX" id="Mcr-H2-Hxr"/>
                 <constraint firstAttribute="trailing" secondItem="vlQ-fx-pWY" secondAttribute="trailing" constant="100" id="Vh3-wp-dJQ"/>
-                <constraint firstItem="sAS-Ha-IHh" firstAttribute="top" secondItem="hge-6i-4W2" secondAttribute="bottom" constant="-4" id="fn4-Iv-Yx0"/>
-                <constraint firstItem="hge-6i-4W2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="ny1-if-1si"/>
             </constraints>
         </view>
     </objects>
-    <resources>
-        <image name="agent128.png" width="83" height="88"/>
-    </resources>
 </document>
